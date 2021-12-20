@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color: rgb(247, 140, 193);">
+    <section>
+        <!-- navbar -->
+        
+           <div>
+            <ul>
+                <li style="float: left; ">
+                    <a href="#footer" class="active">Tourism</a>
+                </li>
+                <li>
+                    <a href="./page2.html">Visit To Kasmir</a>
+                </li>
+                <li>
+                    <a href="./page3.html">Visit To Hyderabad</a>
+                </li>
+                <!-- <li>
+                    <a href="./contact.html">Contact Us</a>
+                </li> -->
+            </ul>
+           </div>
+        
+    </section>
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+          </select>
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" placeholder="enter your city">
+          <label for="subject">Comments</label>
+          <textarea id="subject" name="subject" placeholder="Write your comments here.." style="height:200px"></textarea>
+      
+          <div class="buttonHolder">
+            <input type="submit" value="Submit" id="btn">
+          </div>
+        </form>
+      </div>
+      <section>
+        <div class="footer" id="footer">
+            <a href="https://github.com/digitalocean"><img src="images/github.png" class="icon-style" alt="Github icon" width="30px" height="15px">&nbsp;&nbsp;&nbsp;&nbsp; Github</a>
+            <a href="https://www.twitter.com/DigitalOcean"><img src="images/twitter.jpeg" class="icon-style" alt="Twitter icon" width="30px" height="15px">&nbsp;&nbsp;&nbsp;&nbsp; Twitter</a>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" class="icon-style" alt="facebookicon" width="30px" height="15px">&nbsp;&nbsp;&nbsp;&nbsp; facebook</a>
+        </div>
+    </section>
+</body>
+</html>

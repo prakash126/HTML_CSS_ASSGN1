@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(245, 228, 228);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(247, 186, 186);
+}
+
+.active {
+  background-color: #04AA6D;
+  border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    }
+
+.column {
+    margin: 50px;
+    flex: 25%;
+    padding: 5px;
+
+    }
+
+.marquee{
+    text-align:center;
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 50px;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    text-align: center;
+  }
+  .footer ,a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 10;
+    
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 300px;
+  }
+
+  .buttonHolder{ text-align: center; }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    
+  }
+  
+  .container {
+    border: 1px solid rgb(97, 69, 69);
+    border-radius: 5px;
+    background-color: #f09494;
+    padding: 20px;
+    margin-top: 100px;
+    
+  }
+
+  .mainImg{
+    text-align: center;
+    margin: 100px;
+  }
+
+  .content h2{
+    color: rgb(87, 80, 80);
+    margin-left: 100px;
+    text-align: justify;
+  }
+  .content p{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+  }
+
+ 
